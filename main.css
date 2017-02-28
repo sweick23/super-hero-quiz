@@ -1,0 +1,37 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: steelblue;
+}
+.space{
+	padding: 5%;
+}
+
+#space{
+	box-shadow: 5px 5px 5px 5px black;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 10%;
+	width: 60%;
+	height: auto;
+	background: white;
+}
+.start-page,.question-page,.answer-feedback-page,.final-feedback-page{
+	display: none;
+}
+ul{
+	list-style: none;
+}
+button{
+	width: 32%;
+	color: white;
+	background: grey;
+	border: 1px solid steelblue;
+	border-radius: 5px;
+}
+button:hover{
+	background: steelblue;
+	cursor: pointer;
+}
