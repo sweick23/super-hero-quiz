@@ -12,7 +12,7 @@ var state = {
       correctChoiceIndex: 1
     },
     {
-      text: "Who is Ironman?",
+      text: "Who is Iron Man?",
       choices: ["- Mike Meyers", "- Bruce Wayne", "- Tony Stark", "- Bruce Willis"],
       correctChoiceIndex: 2,
     },
@@ -43,7 +43,7 @@ var state = {
     },
      {
       text: "What super hero is War Machine sidekick to?",
-      choices: ["- Thor", "- Robin", "- Ironman", "- Falcon"],
+      choices: ["- Thor", "- Robin", "- Iron Man", "- Falcon"],
       correctChoiceIndex: 2,
     },
      {
