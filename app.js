@@ -163,7 +163,7 @@ function renderChoices(state, element) {
   var choices = currentQuestion.choices.map(function(choice, index) {
     return (
       '<li>' +
-        '<input type="checkbox" name="user-answer" value="' + index + '" required>' +
+        '<input type="radio" name="user-answer" value="' + index + '" required>' +
         '<label>' + choice + '</label>' +
       '</li>'
     );
